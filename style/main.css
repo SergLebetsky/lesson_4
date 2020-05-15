@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box ;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: violet;
+}
+
+.container {
+    width: 1000px;
+    height: 1000px;
+    background:white;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+/* Circle
+ =================================================== */
+.circle {
+    width: 25%;
+    height: 25%;
+    background: chocolate;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.circle:hover {
+    z-index: 2;
+}
+
+.one {
+top: 10%;
+left: 10%;
+}
+
+.one:hover {
+    background: linear-gradient(to bottom right, blue, pink);
+}
+
+.two {
+    top: 10%;
+    right: 10%;
+}
+
+.two:hover {
+    background: linear-gradient(to bottom left, blue, pink);
+}
+
+.three {
+    bottom: 10%;
+    left: 10%;
+}
+
+.three:hover {
+    background: linear-gradient(to top right, blue, pink);
+}
+
+.four {
+    bottom: 10%;
+    right: 10%;
+}
+
+.four:hover {
+    background: linear-gradient(to top left, blue, pink);
+}
+/* Square
+ =================================================== */
+.square {
+    width: 55%;
+    height: 55%;
+    background: blue;
+    position: absolute;
+    top: 22.5%;
+    left: 22.5%;
+}
+
+.square:hover {
+    z-index: 2;
+    background: linear-gradient(to bottom, red 25%, green 75%);
+}
+
+.square_small {
+    width: 30%;
+    height: 30%;
+    background:yellowgreen;
+    position: absolute;
+    border-radius: 20%;
+    top: 35%;
+    left: 35%;
+}
